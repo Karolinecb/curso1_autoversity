@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name='BuildingCorridor'>
+    <link name='Stairs_1'>
+      <visual name='Stairs_1_Visual_0'>
+        <pose>-6.5 -1.505 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 1.01 0</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+        </material>
+      </visual>
+      <collision name='Stairs_1_Collision_0'>
+        <geometry>
+          <box>
+            <size>1 1.01 0</size>
+          </box>
+        </geometry>
+        <pose>-6.5 -1.505 0 0 -0 0</pose>
+      </collision>
+    </link>
+    <link name='Stairs_3'>
+      <visual name='Stairs_3_Visual_0'>
+        <pose>0.5 3.50696 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 1 0</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+        </material>
+      </visual>
+      <collision name='Stairs_3_Collision_0'>
+        <geometry>
+          <box>
+            <size>1 1 0</size>
+          </box>
+        </geometry>
+        <pose>0.5 3.50696 0 0 -0 0</pose>
+      </collision>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>

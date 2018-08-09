@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name='BuildingDefaultName'>
+    <link name='Stairs_1'>
+      <visual name='Stairs_1_Visual_0'>
+        <pose>-2.55 -2.12 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 1 0</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+        </material>
+      </visual>
+      <collision name='Stairs_1_Collision_0'>
+        <geometry>
+          <box>
+            <size>1 1 0</size>
+          </box>
+        </geometry>
+        <pose>-2.55 -2.12 0 0 -0 0</pose>
+      </collision>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>
