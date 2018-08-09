@@ -1,1 +1,0 @@
-# curso1_autoversity
